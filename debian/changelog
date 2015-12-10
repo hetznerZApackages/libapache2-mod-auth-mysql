@@ -1,3 +1,9 @@
+mod-auth-mysql (4.3.9-15.1+hetz1~exp1) jessie-hetz-experimental; urgency=low
+
+  * Conver to using quilt
+
+ -- Shaun Bugler - Hetzner (Pty) Ltd <sb@hetzner.co.za>  Thu, 10 Dec 2015 10:41:16 +0200
+
 mod-auth-mysql (4.3.9-14.3+hetz1~exp1) jessie-hetz-experimental; urgency=low
 
   * Jessie 
