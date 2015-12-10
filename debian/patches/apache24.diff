@@ -1,0 +1,16 @@
+Index: libapache2-mod-auth-mysql/mod_auth_mysql.c
+===================================================================
+--- libapache2-mod-auth-mysql.orig/mod_auth_mysql.c
++++ libapache2-mod-auth-mysql/mod_auth_mysql.c
+@@ -1630,9 +1630,9 @@ int mysql_check_auth(request_rec *r)
+ 	register int x;
+ 	const char *t;
+ #ifdef APACHE2
+-	const apr_array_header_t *reqs_arr = ap_requires(r);
++	const apr_array_header_t *reqs_arr = NULL;
+ #else
+-	const array_header *reqs_arr = ap_requires(r);
++	const array_header *reqs_arr = NULL;
+ #endif
+ 	require_line *reqs;
+ 

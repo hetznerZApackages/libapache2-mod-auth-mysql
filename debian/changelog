@@ -1,3 +1,9 @@
+mod-auth-mysql (4.3.11-1.1+hetz1~exp2) jessie-hetz-experimental; urgency=low
+
+  * Try fix for apache 2.4 
+
+ -- Shaun Bugler - Hetzner (Pty) Ltd <sb@hetzner.co.za>  Thu, 10 Dec 2015 12:38:29 +0200
+
 mod-auth-mysql (4.3.10-1.1+hetz1~exp1) jessie-hetz-experimental; urgency=low
 
   * Bump version
