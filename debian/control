@@ -3,7 +3,7 @@ Section: httpd
 Priority: optional
 Maintainer: Joey Schulze <joey@debian.org>
 Standards-Version: 3.9.4
-Build-Depends: debhelper (>= 7.0.50~), libmysqlclient-dev, apache2-dev (>= 2.4)
+Build-Depends: debhelper (>= 7.0.50~), libmysqlclient-dev, apache2-dev (>= 2.4), quilt
 
 Package: libapache2-mod-auth-mysql
 Architecture: any
