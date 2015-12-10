@@ -48,7 +48,7 @@ install: build
 	dh_testdir
 	dh_testroot
 	dh_installdirs -A
-
+	find $(APACHE2)
 	install -m 644 apache2_mod_auth_mysql.so $(APACHE2)/usr/lib/apache2/modules/mod_auth_mysql.so
 	install -m 644 auth_mysql.load $(APACHE2)/etc/apache2/mods-available
 
