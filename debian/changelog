@@ -1,3 +1,9 @@
+mod-auth-mysql (4.3.9-14.1+hetz1~exp1) jessie-hetz-experimental; urgency=low
+
+  * Jessie 
+
+ -- Shaun Bugler - Hetzner (Pty) Ltd <sb@hetzner.co.za>  Thu, 10 Dec 2015 09:40:12 +0200
+
 mod-auth-mysql (4.3.9-13.1) unstable; urgency=low
 
   * Non-maintainer upload.
