@@ -1,3 +1,9 @@
+mod-auth-mysql (4.3.10-1.1+hetz1~exp1) jessie-hetz-experimental; urgency=low
+
+  * Bump version
+
+ -- Shaun Bugler - Hetzner (Pty) Ltd <sb@hetzner.co.za>  Thu, 10 Dec 2015 12:00:49 +0200
+
 mod-auth-mysql (4.3.9-15.7+hetz1~exp1) jessie-hetz-experimental; urgency=low
 
   * Convert to using quilt
